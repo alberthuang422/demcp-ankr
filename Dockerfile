@@ -19,4 +19,4 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 8080
 
 # 启动命令
-CMD ["uv", "run", "src/main.py"] 
+CMD ["uv", "run", "src/ankr.py"] 
