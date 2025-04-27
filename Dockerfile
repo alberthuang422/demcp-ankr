@@ -19,4 +19,4 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 8080
 
 # 启动命令
-CMD ["python", "-m", "src.main"] 
+CMD ["uv", "run", "src/main.py"] 
